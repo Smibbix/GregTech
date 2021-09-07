@@ -775,6 +775,28 @@ public class Materials {
         Andesite.addOreByProducts(Basalt);
         Diorite.addOreByProducts(NetherQuartz);
         Lepidolite.addOreByProducts(Boron);
+        
+        
+        Mirabilite.addOreByProducts(RockSalt, Gypsum);
+        Mica.addOreByProducts(Aluminium, Glauconite);
+        Trona.addOreByProducts(Trona, SodaAsh);
+        Barite.addOreByProducts(Barium, Strontium);
+        Gypsum.addOreByProducts(Sulfur, Kaolinite);
+        Alunite.addOreByProducts(Sodium, Iron);
+        Dolomite.addOreByProducts(Iron, Manganese, Cobalt, Zinc);
+        Wollastonite.addOreByProducts(Iron, Manganese);
+        /**
+        * Zeolite.addOreByProducts(b, c);
+          Kyanite.addOreByProducts(b, c);
+          Kaolinite.addOreByProducts(b, c);
+          Realgar.addOreByProducts(b, c);
+          Biotite.addOreByProducts(b, c);
+          PotassiumFeldspar.addOreByProducts(b, c);
+        */
+        Osmiridium.addOreByProducts(Osmium, Iridium);
+        SodaAsh.addOreByProducts(Sodium, Carbon);
+        Perlite.addOreByProducts(Obsidian);
+        Borax.addOreByProducts(Boron, Calcite);
 
         Vinteum.addEnchantmentForTools(Enchantments.FORTUNE, 2);
         BlackBronze.addEnchantmentForTools(Enchantments.SMITE, 2);
